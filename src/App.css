@@ -1,9 +1,11 @@
 .App {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
 }
 
@@ -12,27 +14,30 @@
     animation: App-logo-spin infinite 1s linear;
   }
 }
-
+.App-menu{
+  margin-left: 10px;
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #E5E5E5;
+  /* min-height: 100vh; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  font-size: 22px;
+  color: #707070;
+
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
